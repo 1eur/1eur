@@ -95,8 +95,6 @@ public:
         nTargetSpacing = 1 * 60;
         nLastPOWBlock = 1000;
         nMaturity = 150;
-       // nNewMaturity = 100;
-        //nProtocol_switch = 122760;
         nModifierUpdateBlock = 1;
 
         const char* pszTimestamp = "https://u.today/bitcoin-btc-will-be-the-survivor-in-crypto-cnbc";
