@@ -93,7 +93,7 @@ public:
         nMinerThreads = 0;
         nTargetTimespan = 1 * 60;
         nTargetSpacing = 1 * 60;
-        nLastPOWBlock = 5000;
+        nLastPOWBlock = 1000;
         nMaturity = 150;
        // nNewMaturity = 100;
         //nProtocol_switch = 122760;
