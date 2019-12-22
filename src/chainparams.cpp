@@ -45,12 +45,12 @@ static void convertSeed6(std::vector<CAddress>& vSeedsOut, const SeedSpec6* data
 
 
 static Checkpoints::MapCheckpoints mapCheckpoints =
-    boost::assign::map_list_of(0, uint256("0x0x00000bd42d27d9d9007ca67efec3c0bd112aeb8274dd0237d0b4cb58d11db0a3"));
+    boost::assign::map_list_of(0, uint256("0x00000f8110900a1578f01314249d8390a131daa3612fcb95d9986bea45397179"));
 
 
 static const Checkpoints::CCheckpointData data = {
     &mapCheckpoints,
-    1576731600, // * UNIX timestamp of last checkpoint block
+    1577045893, // * UNIX timestamp of last checkpoint block
     0,          // * total number of transactions between genesis and last checkpoint
                 //   (the tx=... number in the SetBestChain debug.log lines)
     2000        // * estimated number of transactions per day after checkpoint
@@ -108,13 +108,13 @@ public:
         genesis.hashPrevBlock = 0;
         genesis.hashMerkleRoot = genesis.BuildMerkleTree();
         genesis.nVersion = 1;
-        genesis.nTime = 1576731600;
+        genesis.nTime = 1577045893;
         //genesis.nBits = bnProofOfWorkLimit.GetCompact();
         genesis.nBits = 0x1e0ffff0;
-        genesis.nNonce = 1112395;
+        genesis.nNonce = 566811;
 
         hashGenesisBlock = genesis.GetHash();
-        assert(hashGenesisBlock == uint256("0x00000bd42d27d9d9007ca67efec3c0bd112aeb8274dd0237d0b4cb58d11db0a3"));
+        assert(hashGenesisBlock == uint256("0x00000f8110900a1578f01314249d8390a131daa3612fcb95d9986bea45397179"));
         assert(genesis.hashMerkleRoot == uint256("0x06dcd168406fcb692c44eabefd204ef4dbd9571f61646b346c3043ff0b77aa59"));
 
         vSeeds.push_back(CDNSSeedData("seed1.xeur.org", "seed1.xeur.org"));
@@ -174,7 +174,7 @@ public:
         nLastPOWBlock = 200;
         nMaturity = 15;
         //! Modify the testnet genesis block so the timestamp is valid for a later start.
-        genesis.nTime = 1576731600;
+        genesis.nTime = 1577045893;
         genesis.nNonce = 0;
         hashGenesisBlock = genesis.GetHash();
 
@@ -234,7 +234,7 @@ public:
         nTargetTimespan = 24 * 60 * 60; // 1Eur: 1 day
         nTargetSpacing = 1 * 60;        // 1Eur: 1 minutes
         bnProofOfWorkLimit = ~uint256(0) >> 1;
-        genesis.nTime = 1576731600;
+        genesis.nTime = 1577045893;
         genesis.nBits = 0x207fffff;
         genesis.nNonce = 12345;
         hashGenesisBlock = genesis.GetHash();
