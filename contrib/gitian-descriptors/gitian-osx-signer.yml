@@ -7,7 +7,7 @@ architectures:
 packages:
 - "faketime"
 remotes:
-- "url": "https://github.com/thnass/1eur-detached-sigs.git"
+- "url": "https://github.com/lulworm/1eur-detached-sigs.git"
   "dir": "signature"
 files:
 - "1eur-osx-unsigned.tar.gz"
