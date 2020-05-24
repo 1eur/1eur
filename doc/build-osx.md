@@ -44,7 +44,7 @@ Instructions: Homebrew
 
 1. Clone the github tree to get the source code and go into the directory.
 
-        git clone https://github.com/lulworm/1eur.git
+        git clone https://github.com/1eur/1eur.git
         cd 1Eur
 
 2.  Build 1eurd:

@@ -41,7 +41,7 @@ The following are developer notes on how to build 1Eur on your native platform. 
 
 Development
 ---------------------
-The 1Eur repo's [root README](https://github.com/lulworm/1eur/blob/master/README.md) contains relevant information on the development process and automated testing.
+The 1Eur repo's [root README](https://github.com/1eur/1eur/blob/master/README.md) contains relevant information on the development process and automated testing.
 
 - [Developer Notes](developer-notes.md)
 - [Multiwallet Qt Development](multiwallet-qt.md)

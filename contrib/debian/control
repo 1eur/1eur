@@ -23,8 +23,8 @@ Build-Depends: debhelper,
  libprotobuf-dev, protobuf-compiler
 Standards-Version: 3.9.2
 Homepage: http://xeur.org
-Vcs-Git: git://github.com/lulworm/1eur.git
-Vcs-Browser: https://github.com/lulworm/1eur
+Vcs-Git: git://github.com/1eur/1eur.git
+Vcs-Browser: https://github.com/1eur/1eur
 
 Package: 1eurd
 Architecture: any
